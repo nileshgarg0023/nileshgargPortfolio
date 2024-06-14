@@ -1,0 +1,453 @@
+.skills {
+  margin: 0;
+  height: 121px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+}
+.iAmVery {
+  position: relative;
+  font-weight: 500;
+}
+.welcomeToMyContainer {
+  margin: 0;
+  align-self: stretch;
+  height: 68px;
+  position: relative;
+  letter-spacing: 1px;
+  color: var(--color-darkslategray);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.openLearning {
+  align-self: stretch;
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-lg);
+}
+.openLearning,
+.skillsHeading,
+.skillsHeadingWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.skillsHeading {
+  align-self: stretch;
+  gap: var(--gap-37xl);
+}
+.skillsHeadingWrapper {
+  width: 474px;
+  padding: var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+  min-width: 474px;
+  max-width: 100%;
+}
+.figma {
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+.empty,
+.figma {
+  position: relative;
+  letter-spacing: -1.04px;
+  line-height: 28.6px;
+  font-weight: 500;
+}
+.figmaNames {
+  width: 533px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.welcomeToMy {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 1px;
+  line-height: 150%;
+  color: var(--color-darkslategray);
+}
+.figmaNamesParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.figmaInstancesChild {
+  width: 536px;
+  height: 3px;
+  position: relative;
+  border-top: 3px solid var(--color-black);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.figmaInstances {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+  max-width: 100%;
+}
+.figma1 {
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+.div,
+.figma1 {
+  position: relative;
+  letter-spacing: -1.04px;
+  line-height: 28.6px;
+  font-weight: 500;
+}
+.figmaParent {
+  width: 533px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.welcomeToMy1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 1px;
+  line-height: 150%;
+  color: var(--color-darkslategray);
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.figmaInstancesItem {
+  width: 536px;
+  height: 3px;
+  position: relative;
+  border-top: 3px solid var(--color-black);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.figmaInstances1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+  max-width: 100%;
+}
+.figma2 {
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+.div1,
+.figma2 {
+  position: relative;
+  letter-spacing: -1.04px;
+  line-height: 28.6px;
+  font-weight: 500;
+}
+.figmaGroup {
+  width: 533px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.welcomeToMy2 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 1px;
+  line-height: 150%;
+  color: var(--color-darkslategray);
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.figmaInstancesInner {
+  width: 536px;
+  height: 3px;
+  position: relative;
+  border-top: 3px solid var(--color-black);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.figmaInstances2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+  max-width: 100%;
+}
+.figma3 {
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+.div2,
+.figma3 {
+  position: relative;
+  letter-spacing: -1.04px;
+  line-height: 28.6px;
+  font-weight: 500;
+}
+.figmaContainer {
+  width: 533px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.welcomeToMy3 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 1px;
+  line-height: 150%;
+  color: var(--color-darkslategray);
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.lineDiv {
+  width: 536px;
+  height: 3px;
+  position: relative;
+  border-top: 3px solid var(--color-black);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.figmaInstances3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+  max-width: 100%;
+}
+.figma4 {
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+.div3,
+.figma4 {
+  position: relative;
+  letter-spacing: -1.04px;
+  line-height: 28.6px;
+  font-weight: 500;
+}
+.figmaParent1 {
+  width: 533px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.welcomeToMy4 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 1px;
+  line-height: 150%;
+  color: var(--color-darkslategray);
+}
+.frameDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.figmaInstancesChild1 {
+  width: 536px;
+  height: 3px;
+  position: relative;
+  border-top: 3px solid var(--color-black);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.figmaInstances4,
+.figmaWelcome {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.figmaInstances4 {
+  align-self: stretch;
+  gap: var(--gap-29xl);
+}
+.figmaWelcome {
+  flex: 1;
+  gap: var(--gap-42xl);
+  min-width: 395px;
+  font-size: var(--font-size-7xl);
+  color: var(--color-black);
+}
+.skillsContent,
+.skillsContentWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.skillsContent {
+  width: 1264px;
+  gap: var(--gap-163xl);
+}
+.skillsContentWrapper {
+  width: 1896px;
+  padding: 0 var(--padding-xl) var(--padding-212xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-77xl);
+  color: var(--color-gray);
+  font-family: var(--font-plus-jakarta-sans);
+}
+@media screen and (max-width: 1325px) {
+  .skillsContent {
+    gap: var(--gap-72xl);
+  }
+  .skillsContentWrapper {
+    padding-bottom: var(--padding-131xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .skillsHeadingWrapper {
+    flex: 1;
+  }
+  .skillsContent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .skills {
+    font-size: var(--font-size-29xl);
+  }
+  .skillsHeading {
+    gap: var(--gap-9xl);
+  }
+  .skillsHeadingWrapper {
+    min-width: 100%;
+  }
+  .figmaInstances,
+  .figmaInstances1,
+  .figmaInstances2,
+  .figmaInstances3,
+  .figmaInstances4 {
+    gap: var(--gap-5xl);
+  }
+  .figmaWelcome {
+    gap: var(--gap-11xl);
+    min-width: 100%;
+  }
+  .skillsContent {
+    gap: var(--gap-26xl);
+  }
+  .skillsContentWrapper {
+    padding-bottom: var(--padding-78xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .skills {
+    font-size: var(--font-size-10xl);
+  }
+  .empty,
+  .figma {
+    font-size: var(--font-size-2xl);
+    line-height: 23px;
+  }
+  .figmaNames {
+    flex-wrap: wrap;
+  }
+  .div,
+  .figma1 {
+    font-size: var(--font-size-2xl);
+    line-height: 23px;
+  }
+  .figmaParent {
+    flex-wrap: wrap;
+  }
+  .div1,
+  .figma2 {
+    font-size: var(--font-size-2xl);
+    line-height: 23px;
+  }
+  .figmaGroup {
+    flex-wrap: wrap;
+  }
+  .div2,
+  .figma3 {
+    font-size: var(--font-size-2xl);
+    line-height: 23px;
+  }
+  .figmaContainer {
+    flex-wrap: wrap;
+  }
+  .div3,
+  .figma4 {
+    font-size: var(--font-size-2xl);
+    line-height: 23px;
+  }
+  .figmaParent1 {
+    flex-wrap: wrap;
+  }
+  .figmaWelcome {
+    gap: var(--gap-mini);
+  }
+  .skillsContent {
+    gap: var(--gap-4xl);
+  }
+}

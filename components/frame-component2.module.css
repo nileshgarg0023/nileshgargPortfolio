@@ -1,0 +1,270 @@
+.figma {
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+.figma,
+.figma1 {
+  position: relative;
+  letter-spacing: -1.04px;
+  line-height: 28.6px;
+  font-weight: 500;
+}
+.figmaItem {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.welcomeToMy {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 1px;
+  line-height: 150%;
+  color: var(--color-darkslategray);
+}
+.figmaExperience {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.separator {
+  align-self: stretch;
+  height: 3px;
+  position: relative;
+  border-top: 3px solid var(--color-black);
+  box-sizing: border-box;
+}
+.experienceItem {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-smi);
+  gap: var(--gap-29xl);
+}
+.figma2 {
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+.div,
+.figma2 {
+  position: relative;
+  letter-spacing: -1.04px;
+  line-height: 28.6px;
+  font-weight: 500;
+}
+.skillName {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.welcomeToMy1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 1px;
+  line-height: 150%;
+  color: var(--color-darkslategray);
+}
+.skillItem {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.separator1 {
+  align-self: stretch;
+  height: 3px;
+  position: relative;
+  border-top: 3px solid var(--color-black);
+  box-sizing: border-box;
+}
+.experienceDetails {
+  width: 474px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+  min-width: 474px;
+  max-width: 100%;
+}
+.myExperiences {
+  margin: 0;
+  align-self: stretch;
+  height: 121px;
+  font-size: inherit;
+  letter-spacing: -5px;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+}
+.letsWorkTogether,
+.myExperiences {
+  position: relative;
+}
+.welcomeToMyContainer {
+  margin: 0;
+  align-self: stretch;
+  height: 69px;
+  position: relative;
+  letter-spacing: 1px;
+  color: var(--color-darkslategray);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.experiencesDescription {
+  width: 474px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  max-width: 100%;
+  font-size: var(--font-size-lg);
+}
+.downloadResume {
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-family: var(--font-plus-jakarta-sans);
+  color: var(--color-black);
+  text-align: left;
+}
+.cloudDownloadOutlineIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.button,
+.experiencesHeading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button {
+  cursor: pointer;
+  border: 1px solid var(--color-gray);
+  padding: var(--padding-2xl) var(--padding-22xl);
+  background-color: var(--color-thistle-200);
+  border-radius: var(--br-31xl);
+  overflow: hidden;
+  flex-direction: row;
+  gap: var(--gap-5xs);
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: var(--color-thistle-300);
+  border: 1px solid var(--color-dimgray);
+  box-sizing: border-box;
+}
+.experiencesHeading {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-29xl);
+  min-width: 420px;
+  max-width: 100%;
+  font-size: var(--font-size-77xl);
+  color: var(--color-gray);
+}
+.experienceContent,
+.experienceContentWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.experienceContent {
+  width: 1288px;
+  gap: var(--gap-149xl);
+}
+.experienceContentWrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-xl) var(--padding-113xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-7xl);
+  color: var(--color-black);
+  font-family: var(--font-plus-jakarta-sans);
+}
+@media screen and (max-width: 1325px) {
+  .experienceContent {
+    gap: var(--gap-65xl);
+  }
+}
+@media screen and (max-width: 1125px) {
+  .experienceDetails {
+    flex: 1;
+  }
+  .experienceContent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .experienceItem {
+    gap: var(--gap-5xl);
+  }
+  .experienceDetails {
+    gap: var(--gap-5xl);
+    min-width: 100%;
+  }
+  .myExperiences {
+    font-size: var(--font-size-29xl);
+  }
+  .experiencesHeading {
+    gap: var(--gap-5xl);
+    min-width: 100%;
+  }
+  .experienceContent {
+    gap: var(--gap-23xl);
+  }
+  .experienceContentWrapper {
+    padding-bottom: var(--padding-67xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .figma,
+  .figma1 {
+    font-size: var(--font-size-2xl);
+    line-height: 23px;
+  }
+  .figmaItem {
+    flex-wrap: wrap;
+  }
+  .div,
+  .figma2 {
+    font-size: var(--font-size-2xl);
+    line-height: 23px;
+  }
+  .skillName {
+    flex-wrap: wrap;
+  }
+  .myExperiences {
+    font-size: var(--font-size-10xl);
+  }
+  .experienceContent {
+    gap: var(--gap-2xl);
+  }
+}

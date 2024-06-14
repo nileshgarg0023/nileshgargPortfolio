@@ -1,0 +1,33 @@
+.portfolioProjects,
+.portfolioProjectsWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.portfolioProjects {
+  flex: 1;
+  flex-direction: column;
+}
+.portfolioProjectsWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-72xl);
+  box-sizing: border-box;
+  text-align: right;
+  font-size: var(--font-size-45xl);
+  color: var(--color-white);
+  font-family: var(--font-plus-jakarta-sans);
+}
+@media screen and (max-width: 1325px) {
+  .portfolioProjectsWrapper {
+    padding-bottom: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .portfolioProjectsWrapper {
+    padding-bottom: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}

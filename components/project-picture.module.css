@@ -1,0 +1,169 @@
+.portfolioIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.headfoxInnovation,
+.projectDummy {
+  height: 81px;
+  position: relative;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+.headfoxInnovation {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  white-space: pre-wrap;
+  max-width: 100%;
+}
+.projectDummy {
+  flex-shrink: 0;
+}
+.projectDummyWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-sm);
+}
+.projectDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.projectSeparator {
+  width: 1557px;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-white);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.uiuxDesign,
+.uiuxDesign1,
+.uiuxDesign2,
+.uiuxDesign3,
+.welcomeToMy {
+  position: relative;
+  letter-spacing: 1px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.welcomeToMy {
+  margin: 0;
+  height: 91px;
+  width: 474px;
+  max-width: 100%;
+}
+.uiuxDesign,
+.uiuxDesign1,
+.uiuxDesign2,
+.uiuxDesign3 {
+  height: 20px;
+}
+.projectSkillList,
+.projectSkills {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.projectSkillList {
+  gap: var(--gap-xs);
+}
+.projectSkills {
+  padding: var(--padding-11xs) 0 0;
+  text-align: right;
+  font-size: var(--font-size-base);
+}
+.projectInfo {
+  width: 1536px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+}
+.portfolio,
+.projectInfo,
+.projectPicture {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.portfolio {
+  flex: 1;
+  background: linear-gradient(-90deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: var(--padding-381xl) var(--padding-143xl) var(--padding-39xl)
+    var(--padding-163xl);
+  box-sizing: border-box;
+  gap: var(--gap-28xl-5);
+  z-index: 1;
+}
+.projectPicture {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+  text-align: right;
+  font-size: var(--font-size-45xl);
+  color: var(--color-white);
+  font-family: var(--font-plus-jakarta-sans);
+}
+@media screen and (max-width: 1125px) {
+  .projectDetails {
+    flex-wrap: wrap;
+  }
+  .portfolio {
+    padding: var(--padding-241xl) var(--padding-62xl) var(--padding-19xl)
+      var(--padding-72xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .headfoxInnovation,
+  .projectDummy {
+    font-size: var(--font-size-32xl);
+  }
+  .projectInfo {
+    flex-wrap: wrap;
+  }
+  .portfolio {
+    gap: var(--gap-5xl);
+    padding-left: var(--padding-26xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .headfoxInnovation,
+  .projectDummy {
+    font-size: var(--font-size-19xl);
+  }
+  .portfolio {
+    padding-top: var(--padding-150xl);
+    padding-bottom: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
